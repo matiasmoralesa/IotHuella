@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <!-- Campos de entrada de usuario y contraseña -->
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="20dp"
+        android:background="edit_text_bg"
+        android:hint="username_hint"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="password_hint"
+        android:inputType="textPassword"
+        android:background="edit_text_bg"
+        android:padding="10dp" />
+
+    <!-- Botón de inicio de sesión -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="login_button"
+        android:textColor="#FFFFFF"
+        android:background="login_button_bg" />
+
+    <!-- Enlace para olvidar la contraseña -->
+    <TextView
+        android:id="@+id/forgotPasswordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="forgot_password"
+        android:textColor="#4285F4"
+        android:textSize="16sp" />
+
+</RelativeLayout>
