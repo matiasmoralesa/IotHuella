@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "361005042244",
+    "project_id": "iothuella",
+    "storage_bucket": "iothuella.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361005042244:android:a29dc32b975886d51c0a11",
+        "android_client_info": {
+          "package_name": "com.example.iothuella"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv0fOpSb-E48uM8nfQ9f2yuHYD5Nrlbng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
